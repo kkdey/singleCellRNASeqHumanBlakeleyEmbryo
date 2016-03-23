@@ -1,0 +1,15 @@
+Package: singleCellRNASeqHumanBlakeleyEmbryo
+Type: Package
+Title: single-cell RNA-seq of human ESC blastocyst (Blakeley et al 2015)
+Version: 0.0.1
+Date: 2016-03-23
+Authors@R: person("Kushal", "Dey", email = "kkdey@uchicago.edu", role = c("aut","cre"))
+Maintainer: Kushal Dey <kkdey@uchicago.edu>
+Description: Blakeley et al 2015 RNA-seq data
+License: Artistic-2.0
+LazyData: yes
+Depends:
+    R (>= 2.10), Biobase (>= 2.26.0)
+biocViews: ExperimentData
+NeedsCompilation: no
+RoxygenNote: 5.0.1
